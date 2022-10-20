@@ -265,6 +265,44 @@ const Branding = () => (
           </div>
         }
       />
+      <BrandSection
+        title="Trademark Guidelines"
+        preview={
+          <div className="grid grid-cols-12 md:gap-x-12 gap-y-24">
+            <div className="col-span-12 md:col-span-6 text-start">
+              <p className="b1 mb-4">The Mastodon name and logos are trademarks of Mastodon gGmbH. While the software we create is available under a free and open source software license, the copyright license does not include an implied right or license to use our trademarks. </p>
+              <p className="b1 mb-4">The role of trademarks is to prevent the exploitation of the good name and reputation of Mastodon by other people and organizations, and to provide assurance about the quality of the products and services associated with it.</p>
+              <p className="b1 mb-4">To use our trademarks beyond what is considered &quot;fair&quot; or &quot;nominative&quot; use, you must follow these guidelines.</p>
+              <p className="b1">To request the use of the Mastodon name and logos in a way not covered in these guidelines, or to report violations, please contact us at <a href="mailto:hello@joinmastodon.org" className="text-blurple-500 hover:underline">hello@joinmastodon.org</a>.</p>
+            </div>
+
+            <div className="col-span-12 md:col-span-6 text-start">
+              <h4 className="h6 mb-4">General guidelines</h4>
+              <p className="mb-4">In general, avoid creating a likelihood of confusion through your use of the marks.</p>
+              <ul className="list-disc mb-8 pl-4">
+                <li className="pl-1 mb-4">Do not use the Mastodon marks in any way that could mistakenly imply any official connection with or endorsement by Mastodon gGmbH.</li>
+                <li className="pl-1 mb-4">Do not use or register, in whole or in part, the Mastodon marks as part of your own trademark, service mark, domain name, company name, trade name, product name or service name.</li>
+                <li className="pl-1 mb-4">You may use the Mastodon word mark in referential phrases such as &quot;for&quot;, &quot;for use with&quot;, or &quot;compatible with&quot;.</li>
+                <li className="pl-1">You may use the Mastodon marks when embedding or otherwise displaying user generated content published using the Mastodon software.</li>
+              </ul>
+              <h4 className="h6 mb-4">Server guidelines</h4>
+              <p className="mb-4">If you run your own Mastodon server using the Mastodon software, including modified Mastodon software on the condition that the modifications are limited to switching on or off features already included in the software, minor tweaks in visual appearance, translations into other languages, and bug fixes:</p>
+              <ul className="list-disc mb-8 pl-4">
+                <li className="pl-1 mb-4">You may (although you are not encouraged to) use the Mastodon word mark in your domain name.</li>
+                <li className="pl-1">You may use the Mastodon marks included in the Mastodon server software for the purposes of running the server.</li>
+              </ul>
+              <h4 className="h6 mb-4">Open source project guidelines</h4>
+              <p className="mb-4">If you choose to build on or modify Mastodon&apos;s open-source code, beyond modifications limited to switching on or off features already included in the software, minor tweaks in visual appearance, translations into other languages, and bug fixes:</p>
+              <ul className="list-disc mb-8 pl-4">
+                <li className="pl-1 mb-4">You must choose your own branding, logos, and trademarks that denote your unique identity so as to clearly signal to users that there is no affiliation with or endorsement by Mastodon gGmbH.</li>
+                <li className="pl-1">You may use word marks, but not our logos, to truthfully describe the relationship between your software and ours, for example &quot;this software is derived from the source code of the Mastodon software&quot;.</li>
+              </ul>
+              <h4 className="h6 mb-4">Social media guidelines</h4>
+              <p>The name and handle of your social media account and any and all pages cannot begin with a Mastodon word mark. In addition, Mastodon logos cannot be used in a way that might suggest affiliation with Mastodon.</p>
+            </div>
+          </div>
+        }
+      />
 
       <Head>
         <title>Brand Toolkit - Mastodon</title>
